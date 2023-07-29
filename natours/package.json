@@ -4,11 +4,13 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "live-server --port=8087"
   },
   "author": "ViniciusPereira",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.2",
     "node-sass": "^9.0.0"
   }
 }
