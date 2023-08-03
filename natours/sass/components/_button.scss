@@ -36,6 +36,15 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &:hover {
+            background-color: darken($color-primary, 10%);
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
